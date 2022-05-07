@@ -96,6 +96,16 @@ nav a:hover,
 nav [class*="fa-"]:hover {
   color: var(--magenta);
 }
+.button {
+  background-color: var(--magenta);
+  padding: 0.6rem;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: var(--white);
+  background-color: var(--hotmag);
+}
 
 /* intro styles */
 #intro {
@@ -138,4 +148,34 @@ nav [class*="fa-"]:hover {
 
 #contact p:last-child {
   margin-top: 3rem;
+}
+
+/* footer styles */
+footer {
+  padding: 2rem;
+  text-align: center;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 2rem 0;
+  gap: 3rem;
+  font-size: 3rem;
+}
+
+/* responsive styles */
+@media (min-width: 850px) {
+  nav {
+    max-width: 98vw;
+    margin: 0 auto;
+  }
+  nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+  }
 }
