@@ -25,6 +25,8 @@ The double colon :: is a pseudo element as opposed to a pseudo class. Is often h
 
 Margins collapse when they encounter each other. If they are different (like one has 1rem and other has 2rem) values the biggest wins. This wierd applies in vertical direction.
 
+One of the things that Grid does that Flexbox does not is Grid can overlap two cells on top of each other.
+
 
 ## Best Practices
 
